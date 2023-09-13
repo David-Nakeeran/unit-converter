@@ -22,12 +22,22 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #6943FF;
+    padding-top: 12px;
+}
+
+#input {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 h1 {
     color: #ffffff;
     font-size: 28px;
     font-weight: 800;
+}
+
+h4 {
+    margin-bottom: 12px;
 }
 
 #input {
@@ -55,22 +65,31 @@ h1 {
     color: #3D3D3D;
     font-size: 16px;
     font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .bottom-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
-    background: #273549;
+    background: #1F2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .sub-blocks {
     display: flex;
+    width: 500px;
+    height: 108.57px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #273549;
+    margin: 15px 15px;
+    padding-bottom: 10px;
+    border-top-left-radius: 6px;
 }
 
 h4 {
@@ -83,4 +102,5 @@ h4 {
     color: #ffffff;
     font-size: 14px;
     font-weight: 400;
+    margin-top: 2px;
 }
